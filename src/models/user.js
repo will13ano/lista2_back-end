@@ -16,6 +16,10 @@ const UserSchema = new mongo.Schema({
         type: String,
         required: true,
         select: false,
+    },
+    lista: { 
+        type: [],
+        default: []    
     }
 });
 

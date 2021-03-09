@@ -1,7 +1,7 @@
 const mongo = require('../database/index');
 
 const listaSchema = new mongo.Schema({
-    id: {
+    user: {
         type: String,
         unique: true
     },
