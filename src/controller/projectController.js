@@ -22,7 +22,7 @@ router.get('/find', async (req, res) => {
 });
 
 router.get('/chegou', (req, res) => {
-    res.send({
+    res.json({
         message: "chegou"
     })
 })
