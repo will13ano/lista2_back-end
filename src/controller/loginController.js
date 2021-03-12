@@ -50,10 +50,4 @@ router.post('/auth', async (req, res) => {
     });
 });
 
-router.get('/', (req, res) => {
-    res.json({
-        message: "chegou"
-    })
-});
-
 module.exports = app => app.use('/login', router)
