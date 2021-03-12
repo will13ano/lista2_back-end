@@ -17,4 +17,6 @@ require('./controller/projectController')(app);
 require('./controller/loginController')(app);
 require('./controller/listaController')(app);
 
+console.log(port);
+
 app.listen(port);
