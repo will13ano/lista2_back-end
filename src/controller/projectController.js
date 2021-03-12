@@ -21,10 +21,4 @@ router.get('/find', async (req, res) => {
     res.send({results: data});
 });
 
-router.get('/chegou', (req, res) => {
-    res.json({
-        message: "chegou"
-    })
-})
-
 module.exports = app => app.use('/project', router);
